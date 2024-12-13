@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анімація</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="block3">
+            <button id="playBtn">Play</button>
+        </div>
+        <div id="block5" style="display: none;">
+            <div id="work">
+                <div id="anim">
+                    <div id="circleSmall" class="circle small"></div>
+                    <div id="circleBig" class="circle big"></div>
+                </div>
+                <div id="controls">
+                    <button id="closeBtn">Close</button>
+                    <button id="startBtn">Start</button>
+                </div>
+            </div>
+        </div>
+        <div id="block4">
+            <h3>Збережені події:</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>LocalStorage</th>
+                        <th>Server</th>
+                    </tr>
+                </thead>
+                <tbody id="eventLogs">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
